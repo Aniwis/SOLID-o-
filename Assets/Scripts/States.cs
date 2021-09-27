@@ -7,17 +7,20 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    public class States
+    public abstract class States
     {
-        public IEnumerator Normal()
+        public virtual IEnumerator Normal()
         {
             yield break;
 
         }
 
-        public IEnumerator Scared()
+        public virtual IEnumerator Scared()
         {
-            yield break;
+            
+            {
+                yield break;
+            }
         }
     }
 }
