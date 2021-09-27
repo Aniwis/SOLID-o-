@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    class NormalState : States
+  /*  class NormalState : States
     {
 
-    }
+    }*/
 }

@@ -12,7 +12,7 @@ public class selectionManager : MonoBehaviour
     RaycastHit hit;
 
     private Transform _selection;
-    private States _currentState;
+   // private States _currentState;
     void Update()
     {
 
