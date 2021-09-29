@@ -18,8 +18,6 @@ public class selectionManager : MonoBehaviour
     void Update()
     {
 
-       
-
         var ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2f, Screen.height / 2f, 0f));
         RaycastHit hit = new RaycastHit();
 
@@ -36,12 +34,7 @@ public class selectionManager : MonoBehaviour
 
                 if (Input.GetMouseButtonDown(2))
                     CleanColor();
-
-
             }
-
-            
-
 
         }
 
